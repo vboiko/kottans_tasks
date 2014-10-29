@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kottans issue #2</title>
+</head>
+<body>
+<h1>Just a bunch of HTML</h1>
+<nav>
+	<ul>
+		<li>
+			<a href="#about">#about</a>
+		</li>
+		<li>
+			<a href="#faq">#faq</a>
+		</li>
+		<li>
+			<a href="#contacts">#contacts</a>
+		</li>
+		<li>
+			<a href="#register">#register</a>
+		</li>
+		<li>
+			<a href="#comments">#comments</a>
+		</li>
+	</ul>
+</nav>
+<div id="main">
+	<div id="about">
+		<h4><b>About</b></h4>
+		<p>You're simply the best, better than all the rest,<br>
+			Better than anyone, anyone I've ever met!<br>
+			I'm stuck on your heart, I hang on every word you say<br>
+			Tear us apart, baby I would rather be dead<br>
+		</p>
+		<img src="https://pbs.twimg.com/profile_images/432997976760647680/4WsMCHu_.jpeg" width="200px">
+	</div>
+	<hr>
+	<div id="faq">
+		<h4><b>FAQ</b></h4>
+		<dl>
+			<dt>
+				Q. What is your song?.
+			</dt>
+			<dd>
+				It is my song.
+			</dd>
+
+			<dt>
+				Q. How about shut up?
+			</dt>
+			<dd>
+				Sorry, I am just weirdly crazy;) No, you shut up.
+			</dd>
+
+			<dt>
+				Q. What is up?
+			</dt>
+			<dd>
+				Not much you know, bro.
+			</dd>
+			
+			<dt>
+				Q. Oh, really?
+			</dt>
+			<dd>
+				Aha, just forget it.
+			</dd>
+		</dl>
+	</div>
+	<hr>
+	<div id="contacts">
+		<h4><b>Contacts</b></h4>
+		<ul>
+			<li>
+				Email me at <a href="mailto:lol@lol.com">lol@lol.com</a>
+			</li>
+			<li>
+				Call me - 03030303030 
+			</li>
+		</ul>	
+	</div>
+	<hr>
+	<div id="register">
+		<h4><b>Register</b></h4>
+		<form id="signup" action="POST">
+			<label for="first_name">First name</label>
+			<input type="text" name="first_name" id="first_name" placeholder="Enter your first name" required>
+			</br>
+			<label for="last_name">Lat name</label>
+			<input type="text" name="last_name" id="last_name" placeholder="Enter your last name" required>
+			</br>
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" placeholder="Enter your password" required>
+			</br>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+	<hr>
+	<div id="comments">
+		<h4><b>Go ahead - leave a comment</b></h4>
+		<form id="add_comment_form" name="add_comment_form">
+            <fieldset>
+                <textarea rows='2' cols='20' placeholder="Tell us what you think about this one ugly page"></textarea>
+            </fieldset>
+            <button type="submit">SUBMIT COMMENT</button>
+        </form>
+	</div>
+</div>
+	<hr>
+	<footer>
+		<nav>
+			<span>
+				<a href="#about">#about</a>
+			</span>
+			<span>
+				<a href="#faq">#faq</a>
+			</span>
+			<span>
+				<a href="#contacts">#contacts</a>
+			</span>
+			<span>
+				<a href="#register">#register</a>
+			</span>
+			<span>
+				<a href="#main">#top</a>
+			</span>
+			<span>
+				<a href="#comments">#comments</a>
+			</span>
+		</nav>
+		<table id="footer_content">
+            <tr>
+                <td>
+                    Lol Incorporated | 5 Ave | NY
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Copyright&copy; 2014 Lol. All rights reserved.
+                </td>
+            </tr>
+        </table>
+	</footer>
+</body>
+</html>
