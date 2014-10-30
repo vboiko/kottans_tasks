@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kottans issue #2</title>
+	<link href="homework3.css" rel="stylesheet">
 </head>
 <body>
 <h1>Just a bunch of HTML</h1>
@@ -26,13 +27,12 @@
 	</ul>
 </nav>
 <div id="main">
-	<div id="about">
+	<div id="about" class="about-block">
 		<h4><b>About</b></h4>
-		<p>You're simply the best, better than all the rest,<br>
-			Better than anyone, anyone I've ever met!<br>
-			I'm stuck on your heart, I hang on every word you say<br>
-			Tear us apart, baby I would rather be dead<br>
-		</p>
+		<p>You're simply the best, better than all the rest,</p>
+		<p>Better than anyone, anyone I've ever met!</p>
+		<p>I'm stuck on your heart, I hang on every word you say</p>
+		<p>Tear us apart, baby I would rather be dead</p>
 		<img src="https://pbs.twimg.com/profile_images/432997976760647680/4WsMCHu_.jpeg" width="200px">
 	</div>
 	<hr>
