@@ -28,16 +28,16 @@
 </nav>
 <div id="main">
 	<div id="about" class="about-block">
-		<h4><b>About</b></h4>
+		<h4>About</h4>
 		<p>You're simply the best, better than all the rest,</p>
 		<p>Better than anyone, anyone I've ever met!</p>
 		<p>I'm stuck on your heart, I hang on every word you say</p>
 		<p>Tear us apart, baby I would rather be dead</p>
-		<img src="https://pbs.twimg.com/profile_images/432997976760647680/4WsMCHu_.jpeg" width="200px">
+		<img src="https://pbs.twimg.com/profile_images/432997976760647680/4WsMCHu_.jpeg" width="200" alt="">
 	</div>
 	<hr>
 	<div id="faq">
-		<h4><b>FAQ</b></h4>
+		<h4>FAQ</h4>
 		<dl>
 			<dt>
 				Q. What is your song?.
@@ -70,7 +70,7 @@
 	</div>
 	<hr>
 	<div id="contacts">
-		<h4><b>Contacts</b></h4>
+		<h4>Contacts</h4>
 		<ul>
 			<li>
 				Email me at <a href="mailto:lol@lol.com">lol@lol.com</a>
@@ -82,23 +82,23 @@
 	</div>
 	<hr>
 	<div id="register">
-		<h4><b>Register</b></h4>
+		<h4>Register</h4>
 		<form id="signup" action="POST">
 			<label for="first_name">First name</label>
 			<input type="text" name="first_name" id="first_name" placeholder="Enter your first name" required>
-			</br>
+			<br/>
 			<label for="last_name">Lat name</label>
 			<input type="text" name="last_name" id="last_name" placeholder="Enter your last name" required>
-			</br>
+			<br/>
 			<label for="password">Password</label>
 			<input type="password" name="password" id="password" placeholder="Enter your password" required>
-			</br>
+			<br/>
 			<button type="submit">Submit</button>
 		</form>
 	</div>
 	<hr>
 	<div id="comments">
-		<h4><b>Go ahead - leave a comment</b></h4>
+		<h4>Go ahead - leave a comment</h4>
 		<form id="add_comment_form" name="add_comment_form">
             <fieldset>
                 <textarea rows='2' cols='20' placeholder="Tell us what you think about this one ugly page"></textarea>
@@ -110,37 +110,28 @@
 	<hr>
 	<footer>
 		<nav>
-			<span>
-				<a href="#about">#about</a>
-			</span>
-			<span>
-				<a href="#faq">#faq</a>
-			</span>
-			<span>
-				<a href="#contacts">#contacts</a>
-			</span>
-			<span>
-				<a href="#register">#register</a>
-			</span>
-			<span>
-				<a href="#main">#top</a>
-			</span>
-			<span>
-				<a href="#comments">#comments</a>
-			</span>
+			<ul>
+				<li>
+					<a href="#about">#about</a>
+				</li>
+				<li>
+					<a href="#faq">#faq</a>
+				</li>
+				<li>
+					<a href="#contacts">#contacts</a>
+				</li>
+				<li>
+					<a href="#register">#register</a>
+				</li>
+				<li>
+					<a href="#comments">#comments</a>
+				</li>
+			</ul>
 		</nav>
-		<table id="footer_content">
-            <tr>
-                <td>
-                    Lol Incorporated | 5 Ave | NY
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Copyright&copy; 2014 Lol. All rights reserved.
-                </td>
-            </tr>
-        </table>
+		<div id="footer_content">
+            <p>Lol Incorporated | 5 Ave | NY</p>
+            <p>Copyright&copy; 2014 Lol. All rights reserved.</p>
+        </div>
 	</footer>
 </body>
 </html>
