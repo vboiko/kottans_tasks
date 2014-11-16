@@ -1,13 +1,12 @@
-var a = {b: 'c', d: {e: 'f'}},
-    b = deepCopy(a);
-a.d = 12;
-console.log(b.d); //{e: 'f'}
-
 function deepCopy(obj) {
+  if(obj === null) return null;
+  if(typeof obj != 'object') return obj;
   var temp = {};
   for (var key in obj){
-    if(obj.hasOwnProperty(key)){
-      temp[key] = obj[key];
+    if (obj.hasOwnProperty(key) && typeof obj[key] == 'object' && obj[key] !== null) {
+        temp[key] = deepCopy(obj[key]);
+    }else{
+      temp[key]=obj[key];
     }
   }
   return temp;

@@ -2,12 +2,12 @@
 1 verbose cli [ 'node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   '--global',
-1 verbose cli   'javascripting' ]
+1 verbose cli   '-g',
+1 verbose cli   'functional-javascript-workshop@latest' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
-4 verbose cache add [ 'javascripting', null ]
-5 verbose cache add name=undefined spec="javascripting" args=["javascripting",null]
+4 verbose cache add [ 'functional-javascript-workshop@latest', null ]
+5 verbose cache add name=undefined spec="functional-javascript-workshop@latest" args=["functional-javascript-workshop@latest",null]
 6 verbose parsed url { protocol: null,
 6 verbose parsed url   slashes: null,
 6 verbose parsed url   auth: null,
@@ -17,135 +17,124 @@
 6 verbose parsed url   hash: null,
 6 verbose parsed url   search: null,
 6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'javascripting',
-6 verbose parsed url   path: 'javascripting',
-6 verbose parsed url   href: 'javascripting' }
-7 silly lockFile ae6d31f2-javascripting javascripting
-8 verbose lock javascripting /Users/vladislavaboiko/.npm/ae6d31f2-javascripting.lock
-9 silly lockFile ae6d31f2-javascripting javascripting
-10 silly lockFile ae6d31f2-javascripting javascripting
-11 verbose addNamed [ 'javascripting', '' ]
-12 verbose addNamed [ null, '*' ]
-13 silly lockFile 9ef866d8-javascripting javascripting@
-14 verbose lock javascripting@ /Users/vladislavaboiko/.npm/9ef866d8-javascripting.lock
-15 silly addNameRange { name: 'javascripting', range: '*', hasData: false }
-16 verbose request where is /javascripting
-17 verbose request registry https://registry.npmjs.org/
-18 verbose request id 7034b1f49b8d95eb
-19 verbose url raw /javascripting
-20 verbose url resolving [ 'https://registry.npmjs.org/', './javascripting' ]
-21 verbose url resolved https://registry.npmjs.org/javascripting
-22 verbose request where is https://registry.npmjs.org/javascripting
-23 info trying registry request attempt 1 at 10:25:16
-24 http GET https://registry.npmjs.org/javascripting
-25 http 200 https://registry.npmjs.org/javascripting
-26 silly registry.get cb [ 200,
-26 silly registry.get   { date: 'Wed, 12 Nov 2014 08:25:17 GMT',
-26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-26 silly registry.get     etag: '"BL6PSPCK2VCRPBM54QWIOR3U7"',
-26 silly registry.get     'content-type': 'application/json',
-26 silly registry.get     'cache-control': 'max-age=60',
-26 silly registry.get     'content-length': '13086',
-26 silly registry.get     'accept-ranges': 'bytes',
-26 silly registry.get     via: '1.1 varnish',
-26 silly registry.get     age: '0',
-26 silly registry.get     'x-served-by': 'cache-fra1229-FRA',
-26 silly registry.get     'x-cache': 'HIT',
-26 silly registry.get     'x-cache-hits': '1',
-26 silly registry.get     'x-timer': 'S1415780717.007279,VS0,VE111',
-26 silly registry.get     vary: 'Accept',
-26 silly registry.get     'keep-alive': 'timeout=10, max=50',
-26 silly registry.get     connection: 'Keep-Alive' } ]
-27 silly addNameRange number 2 { name: 'javascripting', range: '*', hasData: true }
-28 silly addNameRange versions [ 'javascripting',
-28 silly addNameRange   [ '1.0.0',
-28 silly addNameRange     '1.0.1',
-28 silly addNameRange     '1.1.0',
-28 silly addNameRange     '1.1.1',
-28 silly addNameRange     '1.1.2',
-28 silly addNameRange     '1.1.3',
-28 silly addNameRange     '1.2.0',
-28 silly addNameRange     '1.3.0',
-28 silly addNameRange     '1.4.0',
-28 silly addNameRange     '1.5.0',
-28 silly addNameRange     '1.6.0' ] ]
-29 verbose addNamed [ 'javascripting', '1.6.0' ]
-30 verbose addNamed [ '1.6.0', '1.6.0' ]
-31 silly lockFile f58a1b7b-javascripting-1-6-0 javascripting@1.6.0
-32 verbose lock javascripting@1.6.0 /Users/vladislavaboiko/.npm/f58a1b7b-javascripting-1-6-0.lock
-33 silly lockFile 732adcbb-cripting-javascripting-1-6-0-tgz https://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz
-34 verbose lock https://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz /Users/vladislavaboiko/.npm/732adcbb-cripting-javascripting-1-6-0-tgz.lock
-35 verbose addRemoteTarball [ 'https://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz',
-35 verbose addRemoteTarball   'dc436051b03bc36246dd489d75f078605f935b09' ]
-36 info retry fetch attempt 1 at 10:25:17
-37 verbose fetch to= /var/folders/6_/r22mrzcn3xjbq5gbd1cfxmr80000gn/T/npm-19595-za5C_Q6j/registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz
-38 http GET https://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz
-39 http 200 https://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz
-40 silly lockFile 732adcbb-cripting-javascripting-1-6-0-tgz https://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz
-41 silly lockFile 732adcbb-cripting-javascripting-1-6-0-tgz https://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz
-42 silly lockFile f58a1b7b-javascripting-1-6-0 javascripting@1.6.0
-43 silly lockFile f58a1b7b-javascripting-1-6-0 javascripting@1.6.0
-44 silly lockFile 9ef866d8-javascripting javascripting@
-45 silly lockFile 9ef866d8-javascripting javascripting@
-46 silly resolved [ { name: 'javascripting',
-46 silly resolved     description: 'Learn JavaScript by adventuring around in the terminal.',
-46 silly resolved     version: '1.6.0',
-46 silly resolved     repository: { url: 'git://github.com/sethvincent/javascripting.git' },
-46 silly resolved     author: { name: 'sethvincent' },
-46 silly resolved     bin: { javascripting: 'index.js' },
-46 silly resolved     preferGlobal: true,
-46 silly resolved     dependencies: { adventure: '^2.8.0', 'cli-md': '^0.1.0' },
-46 silly resolved     gitHead: '3dd24ac45da3853c8332390f25b998e1b6637df5',
-46 silly resolved     bugs: { url: 'https://github.com/sethvincent/javascripting/issues' },
-46 silly resolved     homepage: 'https://github.com/sethvincent/javascripting',
-46 silly resolved     _id: 'javascripting@1.6.0',
-46 silly resolved     scripts: {},
-46 silly resolved     _shasum: 'dc436051b03bc36246dd489d75f078605f935b09',
-46 silly resolved     _from: 'javascripting@',
-46 silly resolved     _npmVersion: '2.0.2',
-46 silly resolved     _nodeVersion: '0.10.31',
-46 silly resolved     _npmUser: { name: 'sethvincent', email: 'sethvincent@gmail.com' },
-46 silly resolved     maintainers: [ [Object] ],
-46 silly resolved     dist:
-46 silly resolved      { shasum: 'dc436051b03bc36246dd489d75f078605f935b09',
-46 silly resolved        tarball: 'http://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz' },
-46 silly resolved     directories: {},
-46 silly resolved     _resolved: 'https://registry.npmjs.org/javascripting/-/javascripting-1.6.0.tgz' } ]
-47 info install javascripting@1.6.0 into /usr/local/lib
-48 info installOne javascripting@1.6.0
-49 verbose lib/node_modules/javascripting unbuild
-50 verbose tar unpack /Users/vladislavaboiko/.npm/javascripting/1.6.0/package.tgz
-51 silly lockFile 79ce8374-l-lib-node-modules-javascripting tar:///usr/local/lib/node_modules/javascripting
-52 verbose lock tar:///usr/local/lib/node_modules/javascripting /Users/vladislavaboiko/.npm/79ce8374-l-lib-node-modules-javascripting.lock
-53 silly lockFile 4a1ce31a--javascripting-1-6-0-package-tgz tar:///Users/vladislavaboiko/.npm/javascripting/1.6.0/package.tgz
-54 verbose lock tar:///Users/vladislavaboiko/.npm/javascripting/1.6.0/package.tgz /Users/vladislavaboiko/.npm/4a1ce31a--javascripting-1-6-0-package-tgz.lock
-55 silly gunzTarPerm modes [ '755', '644' ]
-56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/javascripting'
-56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/javascripting']
-56 error   errno: 3,
-56 error   code: 'EACCES',
-56 error   path: '/usr/local/lib/node_modules/javascripting',
-56 error   fstream_type: 'Directory',
-56 error   fstream_path: '/usr/local/lib/node_modules/javascripting',
-56 error   fstream_class: 'DirWriter',
-56 error   fstream_stack:
-56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
-56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
-56 error      'Object.oncomplete (fs.js:107:15)' ] }
-57 error Please try running this command again as root/Administrator.
-58 error System Darwin 14.0.0
-59 error command "node" "/usr/local/bin/npm" "install" "--global" "javascripting"
-60 error cwd /Users/vladislavaboiko/Downloads/Homework
-61 error node -v v0.10.33
-62 error npm -v 1.4.28
-63 error path /usr/local/lib/node_modules/javascripting
-64 error fstream_path /usr/local/lib/node_modules/javascripting
-65 error fstream_type Directory
-66 error fstream_class DirWriter
-67 error code EACCES
-68 error errno 3
-69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/javascripting'
-70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
-70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
-70 error fstream_stack Object.oncomplete (fs.js:107:15)
-71 verbose exit [ 3, true ]
+6 verbose parsed url   pathname: 'functional-javascript-workshop@latest',
+6 verbose parsed url   path: 'functional-javascript-workshop@latest',
+6 verbose parsed url   href: 'functional-javascript-workshop@latest' }
+7 verbose cache add name="functional-javascript-workshop" spec="latest" args=["functional-javascript-workshop","latest"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'latest',
+8 verbose parsed url   path: 'latest',
+8 verbose parsed url   href: 'latest' }
+9 verbose addNamed [ 'functional-javascript-workshop', 'latest' ]
+10 verbose addNamed [ null, null ]
+11 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+12 verbose lock functional-javascript-workshop@latest /Users/vladislavaboiko/.npm/47ac7295-ional-javascript-workshop-latest.lock
+13 info addNameTag [ 'functional-javascript-workshop', 'latest' ]
+14 verbose request where is /functional-javascript-workshop
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id d14ba41fc3769189
+17 verbose url raw /functional-javascript-workshop
+18 verbose url resolving [ 'https://registry.npmjs.org/',
+18 verbose url resolving   './functional-javascript-workshop' ]
+19 verbose url resolved https://registry.npmjs.org/functional-javascript-workshop
+20 verbose request where is https://registry.npmjs.org/functional-javascript-workshop
+21 info trying registry request attempt 1 at 20:12:34
+22 verbose etag "2BQRK8IHQ7JM9US3BH888RPLE"
+23 http GET https://registry.npmjs.org/functional-javascript-workshop
+24 http 304 https://registry.npmjs.org/functional-javascript-workshop
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Fri, 14 Nov 2014 18:12:34 GMT',
+25 silly registry.get     server: 'Apache',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'last-modified': 'Fri, 14 Nov 2014 18:12:35 GMT',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     etag: '"2BQRK8IHQ7JM9US3BH888RPLE"',
+25 silly registry.get     age: '0',
+25 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1415988754.873297,VS0,VE891',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'content-length': '0',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 verbose etag https://registry.npmjs.org/functional-javascript-workshop from cache
+27 verbose addNamed [ 'functional-javascript-workshop', '0.0.27' ]
+28 verbose addNamed [ '0.0.27', '0.0.27' ]
+29 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
+30 verbose lock functional-javascript-workshop@0.0.27 /Users/vladislavaboiko/.npm/b0131ce5-ional-javascript-workshop-0-0-27.lock
+31 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
+32 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
+33 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+34 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
+35 silly resolved [ { name: 'functional-javascript-workshop',
+35 silly resolved     version: '0.0.27',
+35 silly resolved     description: 'The basics of functional programming in JavaScript. No libraries required.',
+35 silly resolved     main: 'index.js',
+35 silly resolved     bin:
+35 silly resolved      { 'functional-javascript': 'functional-javascript.js',
+35 silly resolved        'functional-javascript-workshop': 'functional-javascript.js' },
+35 silly resolved     scripts: {},
+35 silly resolved     keywords: [ 'workshopper', 'tutorial', 'lesson' ],
+35 silly resolved     author: { name: 'Tim Oxley' },
+35 silly resolved     license: 'MIT',
+35 silly resolved     dependencies: { workshopper: '~0.7.2', 'lorem-ipsum': '~0.1.1' },
+35 silly resolved     gitHead: 'b0cbe50478a1ba1e95dafefd2f7e40460750aea0',
+35 silly resolved     _id: 'functional-javascript-workshop@0.0.27',
+35 silly resolved     _shasum: '939a2f1c11f3303c2baa21ee0692d2163b805541',
+35 silly resolved     _from: 'functional-javascript-workshop@latest',
+35 silly resolved     _npmVersion: '1.4.21',
+35 silly resolved     _npmUser: { name: 'timoxley', email: 'secoif@gmail.com' },
+35 silly resolved     maintainers: [ [Object] ],
+35 silly resolved     dist:
+35 silly resolved      { shasum: '939a2f1c11f3303c2baa21ee0692d2163b805541',
+35 silly resolved        tarball: 'http://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz' },
+35 silly resolved     directories: {},
+35 silly resolved     _resolved: 'https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz',
+35 silly resolved     readme: 'ERROR: No README data found!' } ]
+36 info install functional-javascript-workshop@0.0.27 into /usr/local/lib
+37 info installOne functional-javascript-workshop@0.0.27
+38 verbose lib/node_modules/functional-javascript-workshop unbuild
+39 verbose tar unpack /Users/vladislavaboiko/.npm/functional-javascript-workshop/0.0.27/package.tgz
+40 silly lockFile 3330b005-s-functional-javascript-workshop tar:///usr/local/lib/node_modules/functional-javascript-workshop
+41 verbose lock tar:///usr/local/lib/node_modules/functional-javascript-workshop /Users/vladislavaboiko/.npm/3330b005-s-functional-javascript-workshop.lock
+42 silly lockFile 6ea01461-ript-workshop-0-0-27-package-tgz tar:///Users/vladislavaboiko/.npm/functional-javascript-workshop/0.0.27/package.tgz
+43 verbose lock tar:///Users/vladislavaboiko/.npm/functional-javascript-workshop/0.0.27/package.tgz /Users/vladislavaboiko/.npm/6ea01461-ript-workshop-0-0-27-package-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 error Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop'
+45 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop']
+45 error   errno: 3,
+45 error   code: 'EACCES',
+45 error   path: '/usr/local/lib/node_modules/functional-javascript-workshop',
+45 error   fstream_type: 'Directory',
+45 error   fstream_path: '/usr/local/lib/node_modules/functional-javascript-workshop',
+45 error   fstream_class: 'DirWriter',
+45 error   fstream_stack:
+45 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+45 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+45 error      'Object.oncomplete (fs.js:107:15)' ] }
+46 error Please try running this command again as root/Administrator.
+47 error System Darwin 14.0.0
+48 error command "node" "/usr/local/bin/npm" "install" "-g" "functional-javascript-workshop@latest"
+49 error cwd /Users/vladislavaboiko/Downloads/Homework
+50 error node -v v0.10.33
+51 error npm -v 1.4.28
+52 error path /usr/local/lib/node_modules/functional-javascript-workshop
+53 error fstream_path /usr/local/lib/node_modules/functional-javascript-workshop
+54 error fstream_type Directory
+55 error fstream_class DirWriter
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop'
+59 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+59 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+59 error fstream_stack Object.oncomplete (fs.js:107:15)
+60 verbose exit [ 3, true ]
