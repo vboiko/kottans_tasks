@@ -1,13 +1,9 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '-g',
-1 verbose cli   'functional-javascript-workshop@latest' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'async-you' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
-4 verbose cache add [ 'functional-javascript-workshop@latest', null ]
-5 verbose cache add name=undefined spec="functional-javascript-workshop@latest" args=["functional-javascript-workshop@latest",null]
+4 verbose cache add [ 'async-you', null ]
+5 verbose cache add name=undefined spec="async-you" args=["async-you",null]
 6 verbose parsed url { protocol: null,
 6 verbose parsed url   slashes: null,
 6 verbose parsed url   auth: null,
@@ -17,124 +13,136 @@
 6 verbose parsed url   hash: null,
 6 verbose parsed url   search: null,
 6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'functional-javascript-workshop@latest',
-6 verbose parsed url   path: 'functional-javascript-workshop@latest',
-6 verbose parsed url   href: 'functional-javascript-workshop@latest' }
-7 verbose cache add name="functional-javascript-workshop" spec="latest" args=["functional-javascript-workshop","latest"]
-8 verbose parsed url { protocol: null,
-8 verbose parsed url   slashes: null,
-8 verbose parsed url   auth: null,
-8 verbose parsed url   host: null,
-8 verbose parsed url   port: null,
-8 verbose parsed url   hostname: null,
-8 verbose parsed url   hash: null,
-8 verbose parsed url   search: null,
-8 verbose parsed url   query: null,
-8 verbose parsed url   pathname: 'latest',
-8 verbose parsed url   path: 'latest',
-8 verbose parsed url   href: 'latest' }
-9 verbose addNamed [ 'functional-javascript-workshop', 'latest' ]
-10 verbose addNamed [ null, null ]
-11 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
-12 verbose lock functional-javascript-workshop@latest /Users/vladislavaboiko/.npm/47ac7295-ional-javascript-workshop-latest.lock
-13 info addNameTag [ 'functional-javascript-workshop', 'latest' ]
-14 verbose request where is /functional-javascript-workshop
-15 verbose request registry https://registry.npmjs.org/
-16 verbose request id d14ba41fc3769189
-17 verbose url raw /functional-javascript-workshop
-18 verbose url resolving [ 'https://registry.npmjs.org/',
-18 verbose url resolving   './functional-javascript-workshop' ]
-19 verbose url resolved https://registry.npmjs.org/functional-javascript-workshop
-20 verbose request where is https://registry.npmjs.org/functional-javascript-workshop
-21 info trying registry request attempt 1 at 20:12:34
-22 verbose etag "2BQRK8IHQ7JM9US3BH888RPLE"
-23 http GET https://registry.npmjs.org/functional-javascript-workshop
-24 http 304 https://registry.npmjs.org/functional-javascript-workshop
-25 silly registry.get cb [ 304,
-25 silly registry.get   { date: 'Fri, 14 Nov 2014 18:12:34 GMT',
-25 silly registry.get     server: 'Apache',
-25 silly registry.get     via: '1.1 varnish',
-25 silly registry.get     'last-modified': 'Fri, 14 Nov 2014 18:12:35 GMT',
-25 silly registry.get     'cache-control': 'max-age=60',
-25 silly registry.get     etag: '"2BQRK8IHQ7JM9US3BH888RPLE"',
-25 silly registry.get     age: '0',
-25 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
-25 silly registry.get     'x-cache': 'MISS',
-25 silly registry.get     'x-cache-hits': '0',
-25 silly registry.get     'x-timer': 'S1415988754.873297,VS0,VE891',
-25 silly registry.get     vary: 'Accept',
-25 silly registry.get     'content-length': '0',
-25 silly registry.get     'keep-alive': 'timeout=10, max=50',
-25 silly registry.get     connection: 'Keep-Alive' } ]
-26 verbose etag https://registry.npmjs.org/functional-javascript-workshop from cache
-27 verbose addNamed [ 'functional-javascript-workshop', '0.0.27' ]
-28 verbose addNamed [ '0.0.27', '0.0.27' ]
-29 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
-30 verbose lock functional-javascript-workshop@0.0.27 /Users/vladislavaboiko/.npm/b0131ce5-ional-javascript-workshop-0-0-27.lock
-31 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
-32 silly lockFile b0131ce5-ional-javascript-workshop-0-0-27 functional-javascript-workshop@0.0.27
-33 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
-34 silly lockFile 47ac7295-ional-javascript-workshop-latest functional-javascript-workshop@latest
-35 silly resolved [ { name: 'functional-javascript-workshop',
-35 silly resolved     version: '0.0.27',
-35 silly resolved     description: 'The basics of functional programming in JavaScript. No libraries required.',
-35 silly resolved     main: 'index.js',
-35 silly resolved     bin:
-35 silly resolved      { 'functional-javascript': 'functional-javascript.js',
-35 silly resolved        'functional-javascript-workshop': 'functional-javascript.js' },
-35 silly resolved     scripts: {},
-35 silly resolved     keywords: [ 'workshopper', 'tutorial', 'lesson' ],
-35 silly resolved     author: { name: 'Tim Oxley' },
-35 silly resolved     license: 'MIT',
-35 silly resolved     dependencies: { workshopper: '~0.7.2', 'lorem-ipsum': '~0.1.1' },
-35 silly resolved     gitHead: 'b0cbe50478a1ba1e95dafefd2f7e40460750aea0',
-35 silly resolved     _id: 'functional-javascript-workshop@0.0.27',
-35 silly resolved     _shasum: '939a2f1c11f3303c2baa21ee0692d2163b805541',
-35 silly resolved     _from: 'functional-javascript-workshop@latest',
-35 silly resolved     _npmVersion: '1.4.21',
-35 silly resolved     _npmUser: { name: 'timoxley', email: 'secoif@gmail.com' },
-35 silly resolved     maintainers: [ [Object] ],
-35 silly resolved     dist:
-35 silly resolved      { shasum: '939a2f1c11f3303c2baa21ee0692d2163b805541',
-35 silly resolved        tarball: 'http://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz' },
-35 silly resolved     directories: {},
-35 silly resolved     _resolved: 'https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.27.tgz',
-35 silly resolved     readme: 'ERROR: No README data found!' } ]
-36 info install functional-javascript-workshop@0.0.27 into /usr/local/lib
-37 info installOne functional-javascript-workshop@0.0.27
-38 verbose lib/node_modules/functional-javascript-workshop unbuild
-39 verbose tar unpack /Users/vladislavaboiko/.npm/functional-javascript-workshop/0.0.27/package.tgz
-40 silly lockFile 3330b005-s-functional-javascript-workshop tar:///usr/local/lib/node_modules/functional-javascript-workshop
-41 verbose lock tar:///usr/local/lib/node_modules/functional-javascript-workshop /Users/vladislavaboiko/.npm/3330b005-s-functional-javascript-workshop.lock
-42 silly lockFile 6ea01461-ript-workshop-0-0-27-package-tgz tar:///Users/vladislavaboiko/.npm/functional-javascript-workshop/0.0.27/package.tgz
-43 verbose lock tar:///Users/vladislavaboiko/.npm/functional-javascript-workshop/0.0.27/package.tgz /Users/vladislavaboiko/.npm/6ea01461-ript-workshop-0-0-27-package-tgz.lock
-44 silly gunzTarPerm modes [ '755', '644' ]
-45 error Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop'
-45 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop']
-45 error   errno: 3,
-45 error   code: 'EACCES',
-45 error   path: '/usr/local/lib/node_modules/functional-javascript-workshop',
-45 error   fstream_type: 'Directory',
-45 error   fstream_path: '/usr/local/lib/node_modules/functional-javascript-workshop',
-45 error   fstream_class: 'DirWriter',
-45 error   fstream_stack:
-45 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
-45 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
-45 error      'Object.oncomplete (fs.js:107:15)' ] }
-46 error Please try running this command again as root/Administrator.
-47 error System Darwin 14.0.0
-48 error command "node" "/usr/local/bin/npm" "install" "-g" "functional-javascript-workshop@latest"
-49 error cwd /Users/vladislavaboiko/Downloads/Homework
-50 error node -v v0.10.33
-51 error npm -v 1.4.28
-52 error path /usr/local/lib/node_modules/functional-javascript-workshop
-53 error fstream_path /usr/local/lib/node_modules/functional-javascript-workshop
-54 error fstream_type Directory
-55 error fstream_class DirWriter
-56 error code EACCES
-57 error errno 3
-58 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/functional-javascript-workshop'
-59 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
-59 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
-59 error fstream_stack Object.oncomplete (fs.js:107:15)
-60 verbose exit [ 3, true ]
+6 verbose parsed url   pathname: 'async-you',
+6 verbose parsed url   path: 'async-you',
+6 verbose parsed url   href: 'async-you' }
+7 silly lockFile d1972517-async-you async-you
+8 verbose lock async-you /Users/vladislavaboiko/.npm/d1972517-async-you.lock
+9 silly lockFile d1972517-async-you async-you
+10 silly lockFile d1972517-async-you async-you
+11 verbose addNamed [ 'async-you', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile bdc98408-async-you async-you@
+14 verbose lock async-you@ /Users/vladislavaboiko/.npm/bdc98408-async-you.lock
+15 silly addNameRange { name: 'async-you', range: '*', hasData: false }
+16 verbose request where is /async-you
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id dfeb2d6ce5f2bdb4
+19 verbose url raw /async-you
+20 verbose url resolving [ 'https://registry.npmjs.org/', './async-you' ]
+21 verbose url resolved https://registry.npmjs.org/async-you
+22 verbose request where is https://registry.npmjs.org/async-you
+23 info trying registry request attempt 1 at 14:40:42
+24 http GET https://registry.npmjs.org/async-you
+25 http 200 https://registry.npmjs.org/async-you
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sat, 22 Nov 2014 12:40:44 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"7H1Z59G1AGCUQI2ZMGRLV7R4K"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '13641',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '31',
+26 silly registry.get     'x-served-by': 'cache-fra1242-FRA',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1416660044.941832,VS0,VE0',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'async-you', range: '*', hasData: true }
+28 silly addNameRange versions [ 'async-you',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8',
+28 silly addNameRange     '0.0.9',
+28 silly addNameRange     '0.0.10',
+28 silly addNameRange     '0.0.11',
+28 silly addNameRange     '0.0.12' ] ]
+29 verbose addNamed [ 'async-you', '0.0.12' ]
+30 verbose addNamed [ '0.0.12', '0.0.12' ]
+31 silly lockFile a5acacd0-async-you-0-0-12 async-you@0.0.12
+32 verbose lock async-you@0.0.12 /Users/vladislavaboiko/.npm/a5acacd0-async-you-0-0-12.lock
+33 silly lockFile d819458c-g-async-you-async-you-0-0-12-tgz https://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz
+34 verbose lock https://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz /Users/vladislavaboiko/.npm/d819458c-g-async-you-async-you-0-0-12-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz',
+35 verbose addRemoteTarball   '087e116a43a03d0d9f738937f76374296f5d668c' ]
+36 info retry fetch attempt 1 at 14:40:46
+37 verbose fetch to= /var/folders/6_/r22mrzcn3xjbq5gbd1cfxmr80000gn/T/npm-5328-pkP3_FzZ/registry.npmjs.org/async-you/-/async-you-0.0.12.tgz
+38 http GET https://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz
+39 http 200 https://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz
+40 silly lockFile d819458c-g-async-you-async-you-0-0-12-tgz https://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz
+41 silly lockFile d819458c-g-async-you-async-you-0-0-12-tgz https://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz
+42 silly lockFile a5acacd0-async-you-0-0-12 async-you@0.0.12
+43 silly lockFile a5acacd0-async-you-0-0-12 async-you@0.0.12
+44 silly lockFile bdc98408-async-you async-you@
+45 silly lockFile bdc98408-async-you async-you@
+46 silly resolved [ { name: 'async-you',
+46 silly resolved     version: '0.0.12',
+46 silly resolved     description: 'Learn async via a set of self-guided workshops.',
+46 silly resolved     author: { name: 'Bulkan Evcimen', email: 'bulkan@gmail.com' },
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/bulkan/async-you.git' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     dependencies: { workshopper: '~0.4.1', async: '~0.2.9' },
+46 silly resolved     bin: { 'async-you': './async_you.js' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     gitHead: '405d0377a8bdcc812eed328ba935f1759a88019a',
+46 silly resolved     bugs: { url: 'https://github.com/bulkan/async-you/issues' },
+46 silly resolved     homepage: 'https://github.com/bulkan/async-you',
+46 silly resolved     _id: 'async-you@0.0.12',
+46 silly resolved     scripts: {},
+46 silly resolved     _shasum: '087e116a43a03d0d9f738937f76374296f5d668c',
+46 silly resolved     _from: 'async-you@',
+46 silly resolved     _npmVersion: '1.4.14',
+46 silly resolved     _npmUser: { name: 'bulkan', email: 'bulkan@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '087e116a43a03d0d9f738937f76374296f5d668c',
+46 silly resolved        tarball: 'http://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/async-you/-/async-you-0.0.12.tgz' } ]
+47 info install async-you@0.0.12 into /usr/local/lib
+48 info installOne async-you@0.0.12
+49 verbose lib/node_modules/async-you unbuild
+50 verbose tar unpack /Users/vladislavaboiko/.npm/async-you/0.0.12/package.tgz
+51 silly lockFile 3bea9c39-local-lib-node-modules-async-you tar:///usr/local/lib/node_modules/async-you
+52 verbose lock tar:///usr/local/lib/node_modules/async-you /Users/vladislavaboiko/.npm/3bea9c39-local-lib-node-modules-async-you.lock
+53 silly lockFile 9b835935-npm-async-you-0-0-12-package-tgz tar:///Users/vladislavaboiko/.npm/async-you/0.0.12/package.tgz
+54 verbose lock tar:///Users/vladislavaboiko/.npm/async-you/0.0.12/package.tgz /Users/vladislavaboiko/.npm/9b835935-npm-async-you-0-0-12-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/async-you'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/async-you']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/async-you',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/async-you',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.0.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "async-you"
+60 error cwd /Users/vladislavaboiko/Downloads/Homework
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/async-you
+64 error fstream_path /usr/local/lib/node_modules/async-you
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/async-you'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
